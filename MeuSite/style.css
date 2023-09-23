@@ -1,75 +1,132 @@
-body {  
-    font-family: Arial, sans-serif; 
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
+      /* Body background color */
+        body {
+            background-color: #f4f4f4;
+            color: black; /* Text color */
+            font-family: Arial, sans-serif; /* Choose your preferred font */
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
 
-.jumbotron .col-md-4 {
-    float: left;
-}
+       /* styles.css */
 
-.jumbotron:hover {
-    transform: scale(1.1);
-    transition: transform 0.5s ease-in-out;
-}
+        /* Estilo para a Navbar */
+        .navbar {
+            padding: 10px 0; /* Espaçamento interno (padding) para cima e para baixo */
+            background-color: #3498db;
+        }
 
-.navbar-nav .nav-link {
-    color: black; 
-}
-.navbar-nav .nav-link:hover{
-    color: #494c4e;
-}
+        /* Estilo para a Navbar brand (nome) */
+        .navbar-brand {
+            font-size: 24px; /* Tamanho da fonte do nome */
+        }
 
-.navbar {
-    background: linear-gradient(to bottom, #343a40, #23272b); 
-    color: black; 
-    border-bottom: 2px solid black; 
-}
+        /* Estilo para os links do menu na Navbar */
+        .navbar-nav .nav-link {
+            color: #fff; /* Cor do texto dos links */
+            font-weight: bold; /* Deixar o texto em negrito */
+            font-size: 18px; /* Tamanho da fonte */
+            margin-right: 10px; /* Espaçamento entre os itens */
+        }
 
-.jumbotron {
-    background-color: #fff; 
-    margin-bottom: auto; 
-}
+        .esp {
+            margin-left: 16rem;
+        }
 
-.container {
-    background-color: #fff; 
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-    flex-grow: 1;
-    margin: 20px; 
+        .navbar-nav .nav-link:hover {
+            color: #305cd8; /* Cor do texto dos links quando hover (por exemplo, amarelo) */
+        }
+
+
+        /* Jumbotron background color */
+        .jumbotron {
+            flex-grow: 1;
+            margin: 20px;
+            border-radius: 5px;
+            background-color: #fff; /* White color */
+            margin-bottom: auto; /* Push the footer to the bottom */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */¨
+        }
+
+        .jumbotron-menor {
+            padding: 10px; /* Um valor de preenchimento menor, você pode ajustá-lo conforme necessário */
+            margin-bottom: 2px;
+        }
+        
+        .jumbotron-menor h1 {
+            font-size: 24px; /* Reduza o tamanho da fonte do título */
+            margin-bottom: 10px; /* Adicione margem inferior menor para o título */
+        }
+        
+        .jumbotron-menor p {
+            font-size: 16px; /* Reduza o tamanho da fonte do parágrafo */
+            padding: 10px;
+        }
+
+        .jumbotron-menor h1 {
+            padding: 0px;
+        }
+        
+
+        /* Section background color */
+        .container {
+            background-color: #fff; /* White color */
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+            flex-grow: 1;
+            margin: 35px; /* Margin for the container */
+        }
+
+        .container-menor {
+            margin-bottom: 10px; /* Ajuste a margem inferior conforme necessário */
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+            flex-grow: 1;
+            padding: 20px;
+            margin-left: 100px;
+            margin-right: 100px;
+            border: solid #3498db;
+            border-radius: 10px;
+        }
+
+        .imgp {
+            border-radius: 10%;
+            height: 200px;
+            width: 250px;
+        }
+
+        .jumbotron-zoom {
+            transform: scale(1); /* Tamanho normal */
+            transition: transform 0.3s ease-in-out; /* Adicione uma transição suave */
+        }
+        
+        /* Quando o mouse passa por cima, aplicar o efeito de aproximação */
+        .jumbotron-zoom:hover {
+            transform: scale(1.05); /* Aumentar o tamanho em 5% (efeito de aproximação) */
+        }
+
+        .imgm {
+            border-radius: 20px;
+            border: solid #000000;
+            width: 550px;
+            height: 200px;
+        }
+
+        .imgm-zoom {
+            transform: scale(1); /* Tamanho normal */
+            transition: transform 0.3s ease-in-out; /* Adicione uma transição suave */
+        }
+        
+        /* Quando o mouse passa por cima, aplicar o efeito de aproximação */
+        .imgm-zoom:hover {
+            transform: scale(1.05); /* Aumentar o tamanho em 5% (efeito de aproximação) */
+        }
+
+
+        .container{
+            padding: 10px;
+        }
     
-}
-
-
-.footer {
-    height: 100px;
-    color: black;
-    font-size: 18px;
-    background-color: #000;
-}
-
-.footer h3 {
-    font-size: 22px;
-}
-
-.footer p {
-    font-size: 16px;
-    margin-bottom: 5px;
-}
-
-.footer a {
-    color: #fff;
-}
-
-.footer a:hover {
-    color: #000;
-}
-
-.footer {
-    border-top: none;
-    border-bottom: 1px solid black;
-}
