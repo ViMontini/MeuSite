@@ -125,3 +125,14 @@
             padding: 10px;
         }
     
+        .custom-footer {
+            background-color: #3498db; /* Cor de fundo do footer */
+            color: #fff; /* Cor do texto do footer */
+            text-align: center;
+            padding: 10px 0; /* Espaçamento interno no footer */
+            margin-top: auto; /* Empurra o footer para a parte inferior */
+        }
+
+        .custom-footer a {
+            color: #fff; /* Cor dos links no footer */
+        }
