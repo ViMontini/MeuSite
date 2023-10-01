@@ -16,7 +16,7 @@ Este site foi criado com as seguintes tecnologias:
 
 ## **Como Acessar**
 
-Você pode visitar meu site pessoal clicando [aqui](vimontini.github.io/MeuSite/MeuSite/index.html) ou clonando este repositório e abrir o arquivo `index.html` em seu navegador para visualizar o site.
+Você pode visitar meu site pessoal clicando [aqui](https://vimontini.github.io/MeuSite/MeuSite/index.html) ou clonando este repositório e abrir o arquivo `index.html` em seu navegador para visualizar o site.
 
 
 **Aprecio sua visita!** 😊
